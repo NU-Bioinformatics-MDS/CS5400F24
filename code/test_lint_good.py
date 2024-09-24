@@ -15,8 +15,8 @@ def simple_boolean_check(test_str: str) -> bool:
     Raises:
         ValueError: The test_str is not a string or None
     """
-        if isinstance(test_str), str):
-    return(bool(test_str))
+    if isinstance(test_str), str):
+        return(bool(test_str))
 
 if __name__ == "__main__":
     simple_boolean_check("passing check")

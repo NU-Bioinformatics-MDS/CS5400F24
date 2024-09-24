@@ -34,5 +34,5 @@ jobs:
     - name: Super-Linter
       uses: super-linter/super-linter@v7.1.0
       env:
-        GITHUB_TOKE: ${{ secrtets.GITHUB_TOKEN }}
+        GITHUB_TOKE: ${{ secrets.GITHUB_TOKEN }}
   
